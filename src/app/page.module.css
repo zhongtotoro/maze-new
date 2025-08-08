@@ -7,3 +7,17 @@
   min-height: 100vh;
   padding: 0 0.5rem;
 }
+
+.board {
+  display: flex;
+  flex-flow: row wrap;
+  width: 640px;
+  height: 640px;
+  background-color: #fff;
+}
+
+.cell {
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+}
